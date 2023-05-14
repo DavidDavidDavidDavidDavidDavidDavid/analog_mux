@@ -1,0 +1,285 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1683174458
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+rect 0 -2000 200 -1800
+rect 0 -2400 200 -2200
+rect 0 -2800 200 -2600
+rect 0 -3200 200 -3000
+rect 0 -3600 200 -3400
+rect 0 -4000 200 -3800
+rect 0 -4400 200 -4200
+rect 0 -4800 200 -4600
+rect 0 -5200 200 -5000
+rect 0 -5600 200 -5400
+rect 0 -6000 200 -5800
+rect 0 -6400 200 -6200
+rect 0 -6800 200 -6600
+rect 0 -7200 200 -7000
+rect 0 -7600 200 -7400
+rect 0 -8000 200 -7800
+rect 0 -8400 200 -8200
+rect 0 -8800 200 -8600
+rect 0 -9200 200 -9000
+rect 0 -9600 200 -9400
+rect 0 -10000 200 -9800
+rect 0 -10400 200 -10200
+rect 0 -10800 200 -10600
+rect 0 -11200 200 -11000
+rect 0 -11600 200 -11400
+rect 0 -12000 200 -11800
+rect 0 -12400 200 -12200
+rect 0 -12800 200 -12600
+rect 0 -13200 200 -13000
+rect 0 -13600 200 -13400
+rect 0 -14000 200 -13800
+rect 0 -14400 200 -14200
+rect 0 -14800 200 -14600
+rect 0 -15200 200 -15000
+<< metal3 >>
+rect 930 68 990 5518
+rect 1050 68 1110 5518
+rect 1170 68 1230 5518
+rect 1290 68 1350 5518
+rect 1410 68 1470 5518
+rect 1530 68 1590 5518
+rect 1650 68 1710 5518
+rect 1770 68 1830 5518
+rect 1890 68 1950 5518
+rect 2010 68 2070 5518
+rect 2130 68 2190 5518
+rect 2250 68 2310 5518
+rect 2370 68 2430 5518
+rect 2490 68 2550 5518
+rect 2610 68 2670 5518
+rect 2730 68 2790 5518
+use sky130_fd_sc_hd__nand4_2  x1
+timestamp 1682800499
+transform 1 0 5790 0 1 -752
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x2
+timestamp 1682800499
+transform 1 0 5790 0 1 -1552
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x3
+timestamp 1682800499
+transform 1 0 5790 0 1 -2352
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x4
+timestamp 1682800499
+transform 1 0 5790 0 1 -3152
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x5
+timestamp 1682800499
+transform 1 0 5790 0 1 -3952
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x6
+timestamp 1682800499
+transform 1 0 5790 0 1 -4752
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x7
+timestamp 1682800499
+transform 1 0 5790 0 1 -5552
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x8
+timestamp 1682800499
+transform 1 0 5790 0 1 -6352
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x9
+timestamp 1682800499
+transform 1 0 6786 0 1 -752
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x10
+timestamp 1682800499
+transform 1 0 6786 0 1 -1552
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x11
+timestamp 1682800499
+transform 1 0 6786 0 1 -2352
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x12
+timestamp 1682800499
+transform 1 0 6786 0 1 -3152
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x13
+timestamp 1682800499
+transform 1 0 6786 0 1 -3952
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x14
+timestamp 1682800499
+transform 1 0 6786 0 1 -4752
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x15
+timestamp 1682800499
+transform 1 0 6786 0 1 -5552
+box -38 -48 958 592
+use sky130_fd_sc_hd__nand4_2  x16
+timestamp 1682800499
+transform 1 0 6786 0 1 -6352
+box -38 -48 958 592
+use sky130_fd_sc_hd__inv_8  x17 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform 1 0 6785 0 1 -7806
+box -38 -48 866 592
+use sky130_fd_sc_hd__inv_8  x18
+timestamp 1675710598
+transform 1 0 6772 0 1 133
+box -38 -48 866 592
+use sky130_fd_sc_hd__inv_8  x19
+timestamp 1675710598
+transform 1 0 5881 0 1 -7806
+box -38 -48 866 592
+use sky130_fd_sc_hd__inv_8  x20
+timestamp 1675710598
+transform 1 0 5868 0 1 133
+box -38 -48 866 592
+use sky130_fd_sc_hd__inv_1  x21 pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1675710598
+transform 1 0 5438 0 1 -752
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x22
+timestamp 1675710598
+transform 1 0 5438 0 1 -1552
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x23
+timestamp 1675710598
+transform 1 0 5438 0 1 -2352
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x24
+timestamp 1675710598
+transform 1 0 5438 0 1 -3152
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x25
+timestamp 1675710598
+transform 1 0 5438 0 1 -3952
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x26
+timestamp 1675710598
+transform 1 0 5438 0 1 -4752
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x27
+timestamp 1675710598
+transform 1 0 5438 0 1 -5552
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x28
+timestamp 1675710598
+transform 1 0 5438 0 1 -6352
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x29
+timestamp 1675710598
+transform 1 0 7782 0 1 -752
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x30
+timestamp 1675710598
+transform 1 0 7782 0 1 -1552
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x31
+timestamp 1675710598
+transform 1 0 7782 0 1 -2352
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x32
+timestamp 1675710598
+transform 1 0 7782 0 1 -3152
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x33
+timestamp 1675710598
+transform 1 0 7782 0 1 -3952
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x34
+timestamp 1675710598
+transform 1 0 7782 0 1 -4752
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x35
+timestamp 1675710598
+transform 1 0 7782 0 1 -5552
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x36
+timestamp 1675710598
+transform 1 0 7782 0 1 -6352
+box -38 -48 314 592
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 S3
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 S2
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 S1
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 S0
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VGND
+port 4 nsew
+flabel metal1 0 -2000 200 -1800 0 FreeSans 256 0 0 0 VPWR
+port 5 nsew
+flabel metal1 0 -2400 200 -2200 0 FreeSans 256 0 0 0 Q14N
+port 6 nsew
+flabel metal1 0 -2800 200 -2600 0 FreeSans 256 0 0 0 Q15N
+port 7 nsew
+flabel metal1 0 -3200 200 -3000 0 FreeSans 256 0 0 0 Q13N
+port 8 nsew
+flabel metal1 0 -3600 200 -3400 0 FreeSans 256 0 0 0 Q12N
+port 9 nsew
+flabel metal1 0 -4000 200 -3800 0 FreeSans 256 0 0 0 Q10N
+port 10 nsew
+flabel metal1 0 -4400 200 -4200 0 FreeSans 256 0 0 0 Q11N
+port 11 nsew
+flabel metal1 0 -4800 200 -4600 0 FreeSans 256 0 0 0 Q9N
+port 12 nsew
+flabel metal1 0 -5200 200 -5000 0 FreeSans 256 0 0 0 Q8N
+port 13 nsew
+flabel metal1 0 -5600 200 -5400 0 FreeSans 256 0 0 0 Q7N
+port 14 nsew
+flabel metal1 0 -6000 200 -5800 0 FreeSans 256 0 0 0 Q6N
+port 15 nsew
+flabel metal1 0 -6400 200 -6200 0 FreeSans 256 0 0 0 Q4N
+port 16 nsew
+flabel metal1 0 -6800 200 -6600 0 FreeSans 256 0 0 0 Q3N
+port 17 nsew
+flabel metal1 0 -7200 200 -7000 0 FreeSans 256 0 0 0 Q2N
+port 18 nsew
+flabel metal1 0 -7600 200 -7400 0 FreeSans 256 0 0 0 {}
+port 19 nsew
+flabel metal1 0 -8000 200 -7800 0 FreeSans 256 0 0 0 Q1N
+port 20 nsew
+flabel metal1 0 -8400 200 -8200 0 FreeSans 256 0 0 0 Q0N
+port 21 nsew
+flabel metal1 0 -8800 200 -8600 0 FreeSans 256 0 0 0 Q5N
+port 22 nsew
+flabel metal1 0 -9200 200 -9000 0 FreeSans 256 0 0 0 Q14
+port 23 nsew
+flabel metal1 0 -9600 200 -9400 0 FreeSans 256 0 0 0 Q15
+port 24 nsew
+flabel metal1 0 -10000 200 -9800 0 FreeSans 256 0 0 0 Q13
+port 25 nsew
+flabel metal1 0 -10400 200 -10200 0 FreeSans 256 0 0 0 Q12
+port 26 nsew
+flabel metal1 0 -10800 200 -10600 0 FreeSans 256 0 0 0 Q10
+port 27 nsew
+flabel metal1 0 -11200 200 -11000 0 FreeSans 256 0 0 0 Q11
+port 28 nsew
+flabel metal1 0 -11600 200 -11400 0 FreeSans 256 0 0 0 Q9
+port 29 nsew
+flabel metal1 0 -12000 200 -11800 0 FreeSans 256 0 0 0 Q8
+port 30 nsew
+flabel metal1 0 -12400 200 -12200 0 FreeSans 256 0 0 0 Q7
+port 31 nsew
+flabel metal1 0 -12800 200 -12600 0 FreeSans 256 0 0 0 Q6
+port 32 nsew
+flabel metal1 0 -13200 200 -13000 0 FreeSans 256 0 0 0 Q4
+port 33 nsew
+flabel metal1 0 -13600 200 -13400 0 FreeSans 256 0 0 0 Q3
+port 34 nsew
+flabel metal1 0 -14000 200 -13800 0 FreeSans 256 0 0 0 Q2
+port 35 nsew
+flabel metal1 0 -14400 200 -14200 0 FreeSans 256 0 0 0 Q1
+port 36 nsew
+flabel metal1 0 -14800 200 -14600 0 FreeSans 256 0 0 0 Q0
+port 37 nsew
+flabel metal1 0 -15200 200 -15000 0 FreeSans 256 0 0 0 Q5
+port 38 nsew
+<< end >>

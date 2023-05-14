@@ -1,0 +1,143 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
+Class sky130_fd_sc_hd__inv_8 (0):  Merged 14 parallel devices.
+Class sky130_fd_sc_hd__inv_8 (1):  Merged 14 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_8          |Circuit 2: sky130_fd_sc_hd__inv_8          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (8->1)         |sky130_fd_pr__pfet_01v8_hvt (8->1)         
+sky130_fd_pr__nfet_01v8 (8->1)             |sky130_fd_pr__nfet_01v8 (8->1)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_8          |Circuit 2: sky130_fd_sc_hd__inv_8          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+Y                                          |Y                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_8 and sky130_fd_sc_hd__inv_8 are equivalent.
+
+Class sky130_fd_sc_hd__inv_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__inv_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (2->1)         |sky130_fd_pr__pfet_01v8_hvt (2->1)         
+sky130_fd_pr__nfet_01v8 (2->1)             |sky130_fd_pr__nfet_01v8 (2->1)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+Y                                          |Y                                          
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_2 and sky130_fd_sc_hd__inv_2 are equivalent.
+
+Class sky130_fd_sc_hd__nand4_2 (0):  Merged 8 parallel devices.
+Class sky130_fd_sc_hd__nand4_2 (1):  Merged 8 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__nand4_2        |Circuit 2: sky130_fd_sc_hd__nand4_2        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (8->4)         |sky130_fd_pr__pfet_01v8_hvt (8->4)         
+sky130_fd_pr__nfet_01v8 (8->4)             |sky130_fd_pr__nfet_01v8 (8->4)             
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand4_2        |Circuit 2: sky130_fd_sc_hd__nand4_2        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+Y                                          |Y                                          
+B                                          |B                                          
+C                                          |C                                          
+A                                          |A                                          
+D                                          |D                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand4_2 and sky130_fd_sc_hd__nand4_2 are equivalent.
+Flattening unmatched subcell sized_switch in circuit analog_mux (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BDZ9JN in circuit analog_mux (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KBNS5F in circuit analog_mux (0)(16 instances)
+Flattening unmatched subcell decoder_x4 in circuit analog_mux (1)(1 instance)
+Flattening unmatched subcell switch_x16 in circuit analog_mux (1)(1 instance)
+Flattening unmatched subcell a_mux_switch in circuit analog_mux (1)(16 instances)
+
+Class analog_mux (0):  Merged 416 parallel devices.
+Subcircuit summary:
+Circuit 1: analog_mux                      |Circuit 2: analog_mux                      
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__nand4_2 (16)              |sky130_fd_sc_hd__nand4_2 (16)              
+sky130_fd_pr__pfet_01v8 (304->16)          |sky130_fd_pr__pfet_01v8 (16)               
+sky130_fd_pr__nfet_01v8 (144->16)          |sky130_fd_pr__nfet_01v8 (16)               
+sky130_fd_sc_hd__inv_2 (16)                |sky130_fd_sc_hd__inv_2 (16)                
+sky130_fd_sc_hd__inv_8 (4)                 |sky130_fd_sc_hd__inv_8 (4)                 
+Number of devices: 68                      |Number of devices: 68                      
+Number of nets: 59                         |Number of nets: 59                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: analog_mux                      |Circuit 2: analog_mux                      
+-------------------------------------------|-------------------------------------------
+SIG15                                      |SIG15                                      
+SIG14                                      |SIG14                                      
+SIG13                                      |SIG13                                      
+SIG12                                      |SIG12                                      
+SIG11                                      |SIG11                                      
+SIG10                                      |SIG10                                      
+SIG9                                       |SIG9                                       
+SIG8                                       |SIG8                                       
+SIG7                                       |SIG7                                       
+SIG6                                       |SIG6                                       
+SIG5                                       |SIG5                                       
+SIG4                                       |SIG4                                       
+SIG3                                       |SIG3                                       
+SIG2                                       |SIG2                                       
+SIG1                                       |SIG1                                       
+SIG0                                       |SIG0                                       
+OUT                                        |OUT                                        
+VDD                                        |VDD                                        
+GND                                        |GND                                        
+SEL0                                       |SEL0                                       
+SEL1                                       |SEL1                                       
+SEL2                                       |SEL2                                       
+SEL3                                       |SEL3                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes analog_mux and analog_mux are equivalent.
+
+Final result: Circuits match uniquely.
+.

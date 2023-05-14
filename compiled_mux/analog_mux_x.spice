@@ -1,0 +1,104 @@
+** sch_path: /foss/designs/analog_mux/analog_mux_files/analog_mux.sch
+
+.include /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.subckt analog_mux OUT VDD GND SEL0 SEL1 SEL2 SEL3 SIG3 SIG2 SIG1 SIG0 SIG7 SIG6 SIG5 SIG4 SIG11
++ SIG10 SIG9 SIG8 SIG15 SIG14 SIG13 SIG12
+*.PININFO OUT:O VDD:I GND:I SEL0:I SEL1:I SEL2:I SEL3:I SIG3:I SIG2:I SIG1:I SIG0:I SIG7:I SIG6:I
+*+ SIG5:I SIG4:I SIG11:I SIG10:I SIG9:I SIG8:I SIG15:I SIG14:I SIG13:I SIG12:I
+x1 VDD GND SEL0 SEL1 SEL2 SEL3 net1 net2 net4 net3 net5 net6 net8 net7 net9 net10 net12 net11 net13
++ net14 net16 net15 net17 net18 net20 net19 net21 net22 net24 net23 net25 net26 net28 net27 net29 net30
++ net32 net31 decoder_x4
+x2 SIG15 net1 net2 SIG14 net4 net3 SIG13 net5 net6 SIG12 net8 net7 SIG11 net9 net10 SIG10 net12
++ net11 SIG9 net13 net14 SIG8 net16 net15 OUT SIG7 net17 net18 SIG6 net20 net19 SIG5 net21 net22 SIG4 net24
++ net23 SIG3 net25 net26 SIG2 net28 net27 SIG1 net29 net30 SIG0 net32 net31 VDD GND switch_x16
+.ends
+
+* expanding   symbol:  /foss/designs/analog_mux/analog_mux_files/decoder_x4.sym # of pins=38
+** sym_path: /foss/designs/analog_mux/analog_mux_files/decoder_x4.sym
+** sch_path: /foss/designs/analog_mux/analog_mux_files/decoder_x4.sch
+.subckt decoder_x4 VPWR VGND S0 S1 S2 S3 Q15N Q15 Q14N Q14 Q13N Q13 Q12N Q12 Q11N Q11 Q10N Q10 Q9N
++ Q9 Q8N Q8 Q7N Q7 Q6N Q6 Q5N Q5 Q4N Q4 Q3N Q3 Q2N Q2 Q1N Q1 Q0N Q0
+*.PININFO S3:I S2:I S1:I S0:I VGND:I VPWR:I Q14N:O Q15N:O Q13N:O Q12N:O Q10N:O Q11N:O Q9N:O Q8N:O
+*+ Q7N:O Q6N:O Q4N:O Q3N:O Q2N:O Q1N:O Q0N:O Q5N:O Q14:O Q15:O Q13:O Q12:O Q10:O Q11:O Q9:O Q8:O Q7:O Q6:O
+*+ Q4:O Q3:O Q2:O Q1:O Q0:O Q5:O
+x17 S3 VGND VGND VPWR VPWR S3N sky130_fd_sc_hd__inv_8
+x18 S2 VGND VGND VPWR VPWR S2N sky130_fd_sc_hd__inv_8
+x19 S1 VGND VGND VPWR VPWR S1N sky130_fd_sc_hd__inv_8
+x20 S0 VGND VGND VPWR VPWR S0N sky130_fd_sc_hd__inv_8
+x21 Q0N VGND VGND VPWR VPWR Q0 sky130_fd_sc_hd__inv_2
+x22 Q1N VGND VGND VPWR VPWR Q1 sky130_fd_sc_hd__inv_2
+x23 Q2N VGND VGND VPWR VPWR Q2 sky130_fd_sc_hd__inv_2
+x24 Q3N VGND VGND VPWR VPWR Q3 sky130_fd_sc_hd__inv_2
+x1 S3N S2N S1N S0N VGND VGND VPWR VPWR Q0N sky130_fd_sc_hd__nand4_2
+x2 S3N S2N S1N S0 VGND VGND VPWR VPWR Q1N sky130_fd_sc_hd__nand4_2
+x3 S3N S2N S1 S0N VGND VGND VPWR VPWR Q2N sky130_fd_sc_hd__nand4_2
+x4 S3N S2N S1 S0 VGND VGND VPWR VPWR Q3N sky130_fd_sc_hd__nand4_2
+x5 S3N S2 S1N S0N VGND VGND VPWR VPWR Q4N sky130_fd_sc_hd__nand4_2
+x6 S3N S2 S1N S0 VGND VGND VPWR VPWR Q5N sky130_fd_sc_hd__nand4_2
+x7 S3N S2 S1 S0N VGND VGND VPWR VPWR Q6N sky130_fd_sc_hd__nand4_2
+x8 S3N S2 S1 S0 VGND VGND VPWR VPWR Q7N sky130_fd_sc_hd__nand4_2
+x9 S3 S2N S1N S0N VGND VGND VPWR VPWR Q8N sky130_fd_sc_hd__nand4_2
+x10 S3 S2N S1N S0 VGND VGND VPWR VPWR Q9N sky130_fd_sc_hd__nand4_2
+x11 S3 S2N S1 S0N VGND VGND VPWR VPWR Q10N sky130_fd_sc_hd__nand4_2
+x12 S3 S2N S1 S0 VGND VGND VPWR VPWR Q11N sky130_fd_sc_hd__nand4_2
+x13 S3 S2 S1N S0N VGND VGND VPWR VPWR Q12N sky130_fd_sc_hd__nand4_2
+x14 S3 S2 S1N S0 VGND VGND VPWR VPWR Q13N sky130_fd_sc_hd__nand4_2
+x15 S3 S2 S1 S0N VGND VGND VPWR VPWR Q14N sky130_fd_sc_hd__nand4_2
+x16 S3 S2 S1 S0 VGND VGND VPWR VPWR Q15N sky130_fd_sc_hd__nand4_2
+x25 Q4N VGND VGND VPWR VPWR Q4 sky130_fd_sc_hd__inv_2
+x26 Q5N VGND VGND VPWR VPWR Q5 sky130_fd_sc_hd__inv_2
+x27 Q6N VGND VGND VPWR VPWR Q6 sky130_fd_sc_hd__inv_2
+x28 Q7N VGND VGND VPWR VPWR Q7 sky130_fd_sc_hd__inv_2
+x29 Q8N VGND VGND VPWR VPWR Q8 sky130_fd_sc_hd__inv_2
+x30 Q9N VGND VGND VPWR VPWR Q9 sky130_fd_sc_hd__inv_2
+x31 Q10N VGND VGND VPWR VPWR Q10 sky130_fd_sc_hd__inv_2
+x32 Q11N VGND VGND VPWR VPWR Q11 sky130_fd_sc_hd__inv_2
+x33 Q12N VGND VGND VPWR VPWR Q12 sky130_fd_sc_hd__inv_2
+x34 Q13N VGND VGND VPWR VPWR Q13 sky130_fd_sc_hd__inv_2
+x35 Q14N VGND VGND VPWR VPWR Q14 sky130_fd_sc_hd__inv_2
+x36 Q15N VGND VGND VPWR VPWR Q15 sky130_fd_sc_hd__inv_2
+.ends
+
+
+* expanding   symbol:  /foss/designs/analog_mux/analog_mux_files/switch_x16.sym # of pins=51
+** sym_path: /foss/designs/analog_mux/analog_mux_files/switch_x16.sym
+** sch_path: /foss/designs/analog_mux/analog_mux_files/switch_x16.sch
+.subckt switch_x16 S15 PG15 NG15 S14 PG14 NG14 S13 PG13 NG13 S12 PG12 NG12 S11 PG11 NG11 S10 PG10
++ NG10 S9 PG9 NG9 S8 PG8 NG8 D S7 PG7 NG7 S6 PG6 NG6 S5 PG5 NG5 S4 PG4 NG4 S3 PG3 NG3 S2 PG2 NG2 S1 PG1
++ NG1 S0 PG0 NG0 VPB VNB
+*.PININFO PG0:I NG0:I S0:I PG1:I NG1:I S1:I PG2:I NG2:I S2:I PG3:I NG3:I S3:I PG4:I NG4:I S4:I PG5:I
+*+ NG5:I S5:I PG6:I NG6:I S6:I PG7:I NG7:I S7:I PG8:I NG8:I S8:I PG9:I NG9:I S9:I PG10:I NG10:I S10:I PG11:I
+*+ NG11:I S11:I PG12:I NG12:I S12:I PG13:I NG13:I S13:I PG14:I NG14:I S14:I PG15:I NG15:I S15:I D:O VPB:I
+*+ VNB:I
+x1 S0 VNB NG0 VPB PG0 D a_mux_switch
+x2 S1 VNB NG1 VPB PG1 D a_mux_switch
+x3 S2 VNB NG2 VPB PG2 D a_mux_switch
+x4 S3 VNB NG3 VPB PG3 D a_mux_switch
+x5 S4 VNB NG4 VPB PG4 D a_mux_switch
+x6 S5 VNB NG5 VPB PG5 D a_mux_switch
+x7 S6 VNB NG6 VPB PG6 D a_mux_switch
+x8 S7 VNB NG7 VPB PG7 D a_mux_switch
+x9 S8 VNB NG8 VPB PG8 D a_mux_switch
+x10 S9 VNB NG9 VPB PG9 D a_mux_switch
+x11 S10 VNB NG10 VPB PG10 D a_mux_switch
+x15 S11 VNB NG11 VPB PG11 D a_mux_switch
+x16 S12 VNB NG12 VPB PG12 D a_mux_switch
+x17 S13 VNB NG13 VPB PG13 D a_mux_switch
+x18 S14 VNB NG14 VPB PG14 D a_mux_switch
+x19 S15 VNB NG15 VPB PG15 D a_mux_switch
+.ends
+
+
+* expanding   symbol:  /foss/designs/analog_mux/analog_mux_files/a_mux_switch.sym # of pins=6
+** sym_path: /foss/designs/analog_mux/analog_mux_files/a_mux_switch.sym
+** sch_path: /foss/designs/analog_mux/analog_mux_files/a_mux_switch.sch
+.subckt a_mux_switch VD VNB VNG VPB VPG VS
+*.PININFO VPG:I VNG:I VD:I VS:O VPB:I VNB:I
+XM1 VD VPG VS VPB sky130_fd_pr__pfet_01v8 L=0.15 W=95 nf=19 m=1
+XM2 VD VNG VS VNB sky130_fd_pr__nfet_01v8 L=0.15 W=45 nf=9 m=1
+.ends
+
+.GLOBAL VPB
+.GLOBAL VNB
+.end

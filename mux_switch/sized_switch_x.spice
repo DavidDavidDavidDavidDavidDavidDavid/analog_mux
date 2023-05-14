@@ -1,0 +1,7 @@
+** sch_path: /foss/designs/mux_switch/sized_switch.sch
+.subckt sized_switch VPG VNG V_DRAIN V_SOURCE VPB VNB
+*.PININFO VPG:I VNG:I V_DRAIN:I V_SOURCE:O VPB:I VNB:I
+XM1 V_DRAIN VPG V_SOURCE VPB sky130_fd_pr__pfet_01v8 L=0.15 W=95 nf=19 m=1
+XM2 V_DRAIN VNG V_SOURCE VNB sky130_fd_pr__nfet_01v8 L=0.15 W=45 nf=9 m=1
+.ends
+.end
